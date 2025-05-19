@@ -1,0 +1,67 @@
+/* Estilos Globales */
+body {
+    font-family: "Bebas Neue", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Enlaces generales */
+a {
+    color: #00ffff;
+    text-decoration: none;
+    transition: color 0.4s;
+}
+a:hover {
+    color: red !important;
+    text-decoration: underline;
+}
+
+/* Navbar y navegación (global) */
+.navbar,
+.navbar-nav .nav-link,
+.navbar-brand {
+    color: white;
+}
+
+.navbar .nav-link:hover,
+.navbar-brand:hover {
+    color: red !important;
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Imágenes globales */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Formularios de Bootstrap (globales) */
+.form-control {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.form-control:focus {
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+}
+.form-control::placeholder {
+    color: rgba(178, 178, 178, 0.537);
+}

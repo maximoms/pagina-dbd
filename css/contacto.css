@@ -1,0 +1,48 @@
+/* Estilos específicos para contacto.html */
+
+.contacto-contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+    min-height: 75vh;
+    padding-top: 40px;
+}
+
+.contacto-texto {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    flex: 1;
+    min-width: 280px;
+}
+
+.contacto-texto h1 {
+    font-size: 3rem;
+}
+
+.contacto-texto p,
+.contacto-texto ul {
+    font-size: 1.3rem;
+}
+
+.contacto-imagen {
+    flex: 1;
+    min-width: 350px;
+    text-align: center;
+}
+
+.contacto-imagen img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: -60px;
+}
+.contacto-texto a.btn:hover{
+    background-color: white;
+    color: black !important;
+    border-color: white;
+    text-decoration: underline;
+}
+.contacto-texto a.btn{
+    font-size: 2rem;
+}
